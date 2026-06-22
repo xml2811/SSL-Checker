@@ -45,21 +45,21 @@ Developers, web administrators, sysadmins, technicians and website owners.
 
 ## Screenshots
 
-### ssl checker details
+### Certificate Details
 
-![ssl checker details](docs/screenshots/ssl-checker-details.png)
+<img src="docs/screenshots/ssl-checker-details.png" alt="Certificate Details" width="900">
 
-### ssl checker export
+### Export Report
 
-![ssl checker export](docs/screenshots/ssl-checker-export.png)
+<img src="docs/screenshots/ssl-checker-export.png" alt="Export Report" width="900">
 
-### ssl checker main
+### Main View
 
-![ssl checker main](docs/screenshots/ssl-checker-main.png)
+<img src="docs/screenshots/ssl-checker-main.png" alt="Main View" width="900">
 
-### ssl checker result
+### Certificate Results
 
-![ssl checker result](docs/screenshots/ssl-checker-result.png)
+<img src="docs/screenshots/ssl-checker-result.png" alt="Certificate Results" width="900">
 
 ## Download
 
@@ -133,4 +133,5 @@ Planned improvements may include:
 ## License
 
 Check the repository license before using, modifying or redistributing this software.
+
 

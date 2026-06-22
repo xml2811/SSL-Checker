@@ -33,4 +33,7 @@ _backups/
 .vscode/
 .idea/
 .DS_Store
-Thumbs.db
+Thumbs.dbbackup-readme-*/
+backup-readme-conflict-*/
+backup-readme-encoding-*/
+backup-readme-screenshots-*/
