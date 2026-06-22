@@ -1,49 +1,47 @@
 # MPTech SSL Checker
 
-Ferramenta portÃ¡til para Windows que permite verificar certificados HTTPS/TLS, estado SSL e cobertura do domÃ­nio.
-
-![MPTech SSL Checker](docs/screenshots/ssl-checker-main.png)
+Ferramenta portátil para Windows que permite verificar certificados HTTPS/TLS, estado SSL e cobertura do domínio.
 
 ## Download
 
-Descarrega o executÃ¡vel portÃ¡til a partir do GitHub Releases:
+Descarrega o executável portátil a partir do GitHub Releases:
 
-- RepositÃ³rio: https://github.com/xml2811/SSL-Checker
-- Ãšltima release: https://github.com/xml2811/SSL-Checker/releases/latest
+- Repositório: https://github.com/xml2811/SSL-Checker
+- Última release: https://github.com/xml2811/SSL-Checker/releases/latest
 
 Ficheiro recomendado:
 
-**MPTech-SSL-Checker-v1.0.0-portable.exe**
+MPTech-SSL-Checker-v1.0.0-portable.exe
 
-A versÃ£o portÃ¡til nÃ£o requer instalaÃ§Ã£o.
+A versão portátil não requer instalação.
 
 ## O que faz
 
-MPTech SSL Checker Ã© uma pequena ferramenta tÃ©cnica de ambiente de trabalho para verificar certificados HTTPS rapidamente no Windows.
+MPTech SSL Checker é uma pequena ferramenta técnica de ambiente de trabalho para verificar certificados HTTPS rapidamente no Windows.
 
-Foi pensada para tÃ©cnicos, administradores de sistemas, programadores, estudantes de IT e utilizadores avanÃ§ados que precisam de verificar o estado de um certificado sem abrir vÃ¡rias ferramentas diferentes.
+Foi pensada para técnicos, administradores de sistemas, programadores, estudantes de IT e utilizadores avançados que precisam de verificar o estado de um certificado sem abrir várias ferramentas diferentes.
 
 ## Funcionalidades
 
-- ValidaÃ§Ã£o de certificados HTTPS/TLS.
-- NormalizaÃ§Ã£o de domÃ­nios a partir de domÃ­nio simples ou URL HTTPS completa.
-- VerificaÃ§Ã£o TCP rÃ¡pida antes da validaÃ§Ã£o TLS.
-- Data de expiraÃ§Ã£o e dias restantes.
-- PontuaÃ§Ã£o de saÃºde SSL.
-- VerificaÃ§Ã£o de cobertura do domÃ­nio pelo certificado.
-- DeteÃ§Ã£o de SANs e SANs wildcard.
+- Validação de certificados HTTPS/TLS.
+- Normalização de domínios a partir de domínio simples ou URL HTTPS completa.
+- Verificação TCP rápida antes da validação TLS.
+- Data de expiração e dias restantes.
+- Pontuação de saúde SSL.
+- Verificação de cobertura do domínio pelo certificado.
+- Deteção de SANs e SANs wildcard.
 - Emissor e sujeito do certificado.
-- ImpressÃ£o SHA256.
-- NÃºmero de sÃ©rie do certificado.
+- Impressão SHA256.
+- Número de série do certificado.
 - Algoritmo de assinatura.
 - Tamanho do certificado.
 - Tempo de resposta.
-- DeteÃ§Ã£o do tipo de erro: DNS, TCP, TLS, certificado ou desconhecido.
-- Copiar resultado completo para a Ã¡rea de transferÃªncia.
-- Copiar impressÃ£o do certificado.
-- Exportar relatÃ³rio TXT escolhendo onde guardar.
-- Interface limpa com secÃ§Ãµes tÃ©cnicas expansÃ­veis.
-- Interface multilingue: inglÃªs, espanhol e portuguÃªs.
+- Deteção do tipo de erro: DNS, TCP, TLS, certificado ou desconhecido.
+- Copiar resultado completo para a área de transferência.
+- Copiar impressão do certificado.
+- Exportar relatório TXT escolhendo onde guardar.
+- Interface limpa com secções técnicas expansíveis.
+- Interface multilingue: inglês, espanhol e português.
 - Sem login, sem backend, sem base de dados e sem guardar segredos.
 
 ## Capturas
@@ -66,7 +64,7 @@ Foi pensada para tÃ©cnicos, administradores de sistemas, programadores, estuda
 
 ## Exemplos de teste
 
-Podes testar domÃ­nios como:
+Podes testar domínios como:
 
 - google.com
 - github.com
@@ -76,15 +74,15 @@ Podes testar domÃ­nios como:
 
 ## Privacidade
 
-MPTech SSL Checker apenas se liga ao endpoint HTTPS introduzido pelo utilizador e lÃª o certificado TLS pÃºblico.
+MPTech SSL Checker apenas se liga ao endpoint HTTPS introduzido pelo utilizador e lê o certificado TLS público.
 
-NÃ£o guarda credenciais, palavras-passe, chaves privadas, cookies, contas ou segredos.
+Não guarda credenciais, palavras-passe, chaves privadas, cookies, contas ou segredos.
 
 ## Notas
 
-O Windows SmartScreen pode mostrar um aviso porque o executÃ¡vel ainda nÃ£o estÃ¡ assinado com certificado de cÃ³digo.
+O Windows SmartScreen pode mostrar um aviso porque o executável ainda não está assinado com certificado de código.
 
-## Stack tÃ©cnico
+## Stack técnico
 
 - Tauri 2
 - React
@@ -92,21 +90,21 @@ O Windows SmartScreen pode mostrar um aviso porque o executÃ¡vel ainda nÃ£o 
 - Rust
 - Vite
 - Native TLS
-- AnÃ¡lise de certificados X509
+- Análise de certificados X509
 
-## DistribuiÃ§Ã£o
+## Distribuição
 
-Os executÃ¡veis finais sÃ£o distribuÃ­dos atravÃ©s do GitHub Releases.
+Os executáveis finais são distribuídos através do GitHub Releases.
 
-O ficheiro .exe nÃ£o Ã© guardado dentro da Ã¡rvore do repositÃ³rio.
+O ficheiro .exe não é guardado dentro da árvore do repositório.
 
-## LicenÃ§a
+## Licença
 
-Este projeto tem cÃ³digo visÃ­vel para uso pessoal, educativo e nÃ£o comercial.
+Este projeto tem código visível para uso pessoal, educativo e não comercial.
 
-NÃ£o Ã© permitida a revenda, redistribuiÃ§Ã£o comercial ou utilizaÃ§Ã£o dentro de produtos/serviÃ§os pagos sem autorizaÃ§Ã£o prÃ©via por escrito.
+Não é permitida a revenda, redistribuição comercial ou utilização dentro de produtos/serviços pagos sem autorização prévia por escrito.
 
-Consulta [LICENSE](LICENSE).
+Consulta LICENSE.
 
 ## Autor
 

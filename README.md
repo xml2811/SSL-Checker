@@ -2,8 +2,6 @@
 
 Portable Windows desktop tool for checking HTTPS/TLS certificates, certificate health and hostname coverage.
 
-![MPTech SSL Checker](docs/screenshots/ssl-checker-main.png)
-
 ## Download
 
 Download the latest portable executable from GitHub Releases:
@@ -13,7 +11,7 @@ Download the latest portable executable from GitHub Releases:
 
 Recommended file:
 
-**MPTech-SSL-Checker-v1.0.0-portable.exe**
+MPTech-SSL-Checker-v1.0.0-portable.exe
 
 The portable version does not require installation.
 
@@ -106,7 +104,7 @@ This project is source-available for personal, educational and non-commercial us
 
 Commercial resale, redistribution or use inside paid products/services is not allowed without prior written permission.
 
-See [LICENSE](LICENSE).
+See LICENSE.
 
 ## Author
 

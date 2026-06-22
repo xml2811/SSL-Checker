@@ -2,48 +2,46 @@
 
 Herramienta portable para Windows que permite comprobar certificados HTTPS/TLS, estado SSL y cobertura del dominio.
 
-![MPTech SSL Checker](docs/screenshots/ssl-checker-main.png)
-
 ## Descargar
 
 Descarga el ejecutable portable desde GitHub Releases:
 
 - Repositorio: https://github.com/xml2811/SSL-Checker
-- Ãšltima release: https://github.com/xml2811/SSL-Checker/releases/latest
+- Última release: https://github.com/xml2811/SSL-Checker/releases/latest
 
 Archivo recomendado:
 
-**MPTech-SSL-Checker-v1.0.0-portable.exe**
+MPTech-SSL-Checker-v1.0.0-portable.exe
 
-La versiÃ³n portable no necesita instalaciÃ³n.
+La versión portable no necesita instalación.
 
-## QuÃ© hace
+## Qué hace
 
-MPTech SSL Checker es una pequeÃ±a herramienta tÃ©cnica de escritorio para comprobar certificados HTTPS rÃ¡pidamente desde Windows.
+MPTech SSL Checker es una pequeña herramienta técnica de escritorio para comprobar certificados HTTPS rápidamente desde Windows.
 
-EstÃ¡ pensada para tÃ©cnicos, administradores de sistemas, desarrolladores, estudiantes de IT y usuarios avanzados que necesitan revisar el estado de un certificado sin abrir varias herramientas distintas.
+Está pensada para técnicos, administradores de sistemas, desarrolladores, estudiantes de IT y usuarios avanzados que necesitan revisar el estado de un certificado sin abrir varias herramientas distintas.
 
 ## Funciones
 
-- ValidaciÃ³n de certificados HTTPS/TLS.
-- NormalizaciÃ³n de dominios desde dominio simple o URL HTTPS completa.
-- ComprobaciÃ³n TCP rÃ¡pida antes de validar TLS.
-- Fecha de caducidad y dÃ­as restantes.
-- PuntuaciÃ³n de salud SSL.
-- ComprobaciÃ³n de si el certificado cubre el dominio indicado.
-- DetecciÃ³n de SANs y SANs wildcard.
+- Validación de certificados HTTPS/TLS.
+- Normalización de dominios desde dominio simple o URL HTTPS completa.
+- Comprobación TCP rápida antes de validar TLS.
+- Fecha de caducidad y días restantes.
+- Puntuación de salud SSL.
+- Comprobación de si el certificado cubre el dominio indicado.
+- Detección de SANs y SANs wildcard.
 - Emisor y sujeto del certificado.
 - Huella SHA256.
-- NÃºmero de serie del certificado.
+- Número de serie del certificado.
 - Algoritmo de firma.
-- TamaÃ±o del certificado.
+- Tamaño del certificado.
 - Tiempo de respuesta.
-- DetecciÃ³n de tipo de error: DNS, TCP, TLS, certificado o desconocido.
+- Detección de tipo de error: DNS, TCP, TLS, certificado o desconocido.
 - Copiar resultado completo al portapapeles.
 - Copiar huella del certificado.
-- Exportar informe TXT eligiendo dÃ³nde guardar.
-- Interfaz limpia con secciones tÃ©cnicas desplegables.
-- Interfaz multidioma: inglÃ©s, espaÃ±ol y portuguÃ©s.
+- Exportar informe TXT eligiendo dónde guardar.
+- Interfaz limpia con secciones técnicas desplegables.
+- Interfaz multidioma: inglés, español y portugués.
 - Sin login, sin backend, sin base de datos y sin guardar secretos.
 
 ## Capturas
@@ -76,15 +74,15 @@ Puedes probar dominios como:
 
 ## Privacidad
 
-MPTech SSL Checker solo conecta al endpoint HTTPS introducido por el usuario y lee el certificado TLS pÃºblico.
+MPTech SSL Checker solo conecta al endpoint HTTPS introducido por el usuario y lee el certificado TLS público.
 
-No guarda credenciales, contraseÃ±as, claves privadas, cookies, cuentas ni secretos.
+No guarda credenciales, contraseñas, claves privadas, cookies, cuentas ni secretos.
 
 ## Notas
 
-Windows SmartScreen puede mostrar un aviso porque el ejecutable todavÃ­a no estÃ¡ firmado con certificado de cÃ³digo.
+Windows SmartScreen puede mostrar un aviso porque el ejecutable todavía no está firmado con certificado de código.
 
-## Stack tÃ©cnico
+## Stack técnico
 
 - Tauri 2
 - React
@@ -92,21 +90,21 @@ Windows SmartScreen puede mostrar un aviso porque el ejecutable todavÃ­a no es
 - Rust
 - Vite
 - Native TLS
-- AnÃ¡lisis de certificados X509
+- Análisis de certificados X509
 
-## DistribuciÃ³n
+## Distribución
 
 Los ejecutables finales se distribuyen mediante GitHub Releases.
 
-El archivo .exe no se guarda dentro del Ã¡rbol del repositorio.
+El archivo .exe no se guarda dentro del árbol del repositorio.
 
 ## Licencia
 
-Este proyecto tiene cÃ³digo visible para uso personal, educativo y no comercial.
+Este proyecto tiene código visible para uso personal, educativo y no comercial.
 
-No estÃ¡ permitida la reventa, redistribuciÃ³n comercial ni uso dentro de productos/servicios de pago sin permiso previo por escrito.
+No está permitida la reventa, redistribución comercial ni uso dentro de productos/servicios de pago sin permiso previo por escrito.
 
-Consulta [LICENSE](LICENSE).
+Consulta LICENSE.
 
 ## Autor
 
