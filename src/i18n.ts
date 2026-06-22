@@ -128,7 +128,7 @@ export const translations: Record<Language, Translation> = {
     professionalSummary: "Professional summary",
     yes: "Yes",
     no: "No",
-    footer: "MPTech Tools Â· SSL Checker Â· v1.0.0"
+    footer: "MPTech Tools \u00b7 SSL Checker \u00b7 v1.0.0"
   },
   es: {
     appName: "MPTech SSL Checker",
@@ -192,7 +192,7 @@ export const translations: Record<Language, Translation> = {
     professionalSummary: "Resumen profesional",
     yes: "S\u00ed",
     no: "No",
-    footer: "MPTech Tools Â· SSL Checker Â· v1.0.0"
+    footer: "MPTech Tools \u00b7 SSL Checker \u00b7 v1.0.0"
   },
   pt: {
     appName: "MPTech SSL Checker",
@@ -256,6 +256,6 @@ export const translations: Record<Language, Translation> = {
     professionalSummary: "Resumo profissional",
     yes: "Sim",
     no: "N\u00e3o",
-    footer: "MPTech Tools Â· SSL Checker Â· v1.0.0"
+    footer: "MPTech Tools \u00b7 SSL Checker \u00b7 v1.0.0"
   }
 };
