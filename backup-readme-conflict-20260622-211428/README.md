@@ -11,7 +11,7 @@
 
 ## Overview
 
-SSL Checker is part of **MPTech Windows Tools**, a collection of small utilities focused on practical technical use cases.
+SSL Checker is part of MPTech Windows Tools, a collection of small utilities focused on practical technical use cases.
 
 Official website:
 
@@ -45,7 +45,11 @@ Developers, web administrators, sysadmins, technicians and website owners.
 
 ## Screenshots
 
-Screenshots should be placed in:
+Screenshots will be added in:
+
+docs/screenshots/
+
+Recommended files:
 
 - docs/screenshots/main.png
 - docs/screenshots/result.png
@@ -123,4 +127,18 @@ Planned improvements may include:
 
 ## License
 
+<<<<<<< HEAD
 Check the repository license before using, modifying or redistributing this software.
+=======
+This project is source-available for personal, educational and non-commercial use only.
+
+You may view, study, download and modify the code for your own personal or internal non-commercial use.
+
+You may not sell, resell, sublicense, commercially redistribute, include it in paid products/services, or publish modified commercial versions without prior written permission.
+
+See [LICENSE](LICENSE).## Author
+
+Created by Xavier Madrid Lerga under MPTech Tools.
+
+GitHub: https://github.com/xml2811
+>>>>>>> 7838ac2e929bce4017b46608dfdd2b1187705fd2
