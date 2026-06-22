@@ -1,113 +1,130 @@
-# MPTech SSL Checker
+﻿# SSL Checker
 
-Portable Windows desktop tool for checking HTTPS/TLS certificates, certificate health and hostname coverage.
+## Portable Windows utility to inspect SSL/TLS certificates and domain security data.
 
-## Download
+![Windows](https://img.shields.io/badge/Windows-Portable-blue)
+![Status](https://img.shields.io/badge/Status-Active-success)
+![Built With Tauri](https://img.shields.io/badge/Built%20With-Tauri-24C8DB)
+![MPTech](https://img.shields.io/badge/MPTech-Tools-black)
 
-Download the latest portable executable from GitHub Releases:
+---
 
-- Repository: https://github.com/xml2811/SSL-Checker
-- Latest release: https://github.com/xml2811/SSL-Checker/releases/latest
+## Overview
 
-Recommended file:
+SSL Checker is part of MPTech Windows Tools, a collection of small utilities focused on practical technical use cases.
 
-MPTech-SSL-Checker-v1.0.0-portable.exe
+Official website:
 
-The portable version does not require installation.
+https://mptechsolutions.es
 
-## What it does
+---
 
-MPTech SSL Checker is a small technical desktop utility for quickly checking HTTPS certificates from Windows.
+## Problem It Solves
 
-It is designed for technicians, sysadmins, developers, IT students and advanced users who need a quick way to inspect certificate status without opening several different tools.
+Checking SSL certificate details manually can be slow, especially when reviewing multiple domains.
+
+---
+
+## Who It Is For
+
+Developers, web administrators, sysadmins, technicians and website owners.
+
+---
 
 ## Features
 
-- HTTPS/TLS certificate validation.
-- Domain normalization from plain domains or full HTTPS URLs.
-- Quick TCP connectivity check before TLS validation.
-- Expiration date and days remaining.
-- SSL health score.
-- Hostname coverage check.
-- SAN and wildcard SAN detection.
-- Certificate issuer and subject.
-- SHA256 fingerprint.
-- Certificate serial number.
-- Signature algorithm.
-- Certificate size.
-- Response time.
-- Error type detection: DNS, TCP, TLS, certificate or unknown.
-- Copy full result to clipboard.
-- Copy certificate fingerprint.
-- Export TXT report with save dialog.
-- Clean UI with collapsible technical sections.
-- Multilanguage interface: English, Spanish and Portuguese.
-- No login, no backend, no database and no secrets stored.
+- Check SSL certificate
+- Show expiration dates
+- Show issuer and subject
+- Show SANs
+- Show TLS information
+- Export report
+
+
+---
 
 ## Screenshots
 
-### Main view
+Screenshots will be added in:
 
-![Main view](docs/screenshots/ssl-checker-main.png)
+docs/screenshots/
 
-### Result view
+Recommended files:
 
-![Result view](docs/screenshots/ssl-checker-result.png)
+- docs/screenshots/main.png
+- docs/screenshots/result.png
 
-### SSL details
+---
 
-![SSL details](docs/screenshots/ssl-checker-details.png)
+## Download
 
-### Export TXT
+Latest release:
 
-![Export TXT](docs/screenshots/ssl-checker-export.png)
+https://github.com/xml2811/SSL-Checker/releases/latest
 
-## Example checks
+Download only from official sources:
 
-You can test domains such as:
+- https://github.com/xml2811/SSL-Checker
+- https://mptechsolutions.es
 
-- google.com
-- github.com
-- expired.badssl.com
-- self-signed.badssl.com
-- wrong.host.badssl.com
+---
 
-## Privacy
+## Installation
 
-MPTech SSL Checker only connects to the HTTPS endpoint entered by the user and reads the public TLS certificate.
+This tool is designed as a portable Windows executable.
 
-It does not store credentials, passwords, private keys, cookies, accounts or secrets.
+General usage:
 
-## Notes
+1. Download the latest .exe from Releases.
+2. Place it in any folder.
+3. Run it.
 
-Windows SmartScreen may show a warning because the executable is not code-signed yet.
+No installer is required unless a future release adds one.
 
-## Tech stack
+---
 
-- Tauri 2
-- React
-- TypeScript
-- Rust
-- Vite
-- Native TLS
-- X509 certificate parsing
+## Security Notice
 
-## Distribution
+Early releases may not be digitally signed yet.
 
-Final executable files are distributed through GitHub Releases.
+Because of that, Windows SmartScreen may show a warning.
 
-The .exe file is not stored in the repository tree.
+This does not automatically mean the file is malicious, but you should only download the tool from official sources.
+
+Future improvements may include:
+
+- SHA256 checksums
+- Digital code signing
+- Dedicated documentation
+- Dedicated download page on MPTechSolutions
+
+---
+
+## Roadmap
+
+Planned improvements may include:
+
+- Better UI polish
+- More diagnostics
+- Better export options
+- Multilanguage support
+- Signed releases in the future
+- Documentation on MPTechSolutions.es
+
+---
+
+## Related Links
+
+| Resource | Link |
+|---|---|
+| Official Website | https://mptechsolutions.es |
+| GitHub Profile | https://github.com/xml2811 |
+| Windows Tools Catalog | https://github.com/xml2811/Windows-Tools |
+| Repository | https://github.com/xml2811/SSL-Checker |
+| Latest Release | https://github.com/xml2811/SSL-Checker/releases/latest |
+
+---
 
 ## License
 
-This project is source-available for personal, educational and non-commercial use only.
-
-Commercial resale, redistribution or use inside paid products/services is not allowed without prior written permission.
-
-See LICENSE.
-
-## Author
-
-Created by Xavier Madrid Lerga under MPTech Tools.
-
-GitHub: https://github.com/xml2811
+Check the repository license before using, modifying or redistributing this software.
