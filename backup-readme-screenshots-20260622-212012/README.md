@@ -45,21 +45,12 @@ Developers, web administrators, sysadmins, technicians and website owners.
 
 ## Screenshots
 
-### ssl checker details
+Screenshots should be placed in:
 
-![ssl checker details](docs/screenshots/ssl-checker-details.png)
+- docs/screenshots/main.png
+- docs/screenshots/result.png
 
-### ssl checker export
-
-![ssl checker export](docs/screenshots/ssl-checker-export.png)
-
-### ssl checker main
-
-![ssl checker main](docs/screenshots/ssl-checker-main.png)
-
-### ssl checker result
-
-![ssl checker result](docs/screenshots/ssl-checker-result.png)
+---
 
 ## Download
 
@@ -133,4 +124,3 @@ Planned improvements may include:
 ## License
 
 Check the repository license before using, modifying or redistributing this software.
-
