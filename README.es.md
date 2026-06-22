@@ -100,13 +100,13 @@ El archivo .exe no se guarda dentro del árbol del repositorio.
 
 ## Licencia
 
-Este proyecto tiene código visible para uso personal, educativo y no comercial.
+Este proyecto tiene cÃ³digo visible para uso personal, educativo y no comercial.
 
-No está permitida la reventa, redistribución comercial ni uso dentro de productos/servicios de pago sin permiso previo por escrito.
+Puedes ver, estudiar, descargar y modificar el cÃ³digo para tu propio uso personal o interno no comercial.
 
-Consulta LICENSE.
+No puedes venderlo, revenderlo, sublicenciarlo, redistribuirlo comercialmente, incluirlo en productos/servicios de pago ni publicar versiones modificadas comerciales sin permiso previo por escrito.
 
-## Autor
+Consulta [LICENSE](LICENSE).## Autor
 
 Creado por Xavier Madrid Lerga bajo MPTech Tools.
 
