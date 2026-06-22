@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Frontend build output
+dist/
+.vite/
+
+# Rust/Tauri build output
+target/
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Local release artifacts
+releases/
+checksums/
+*.exe
+*.msi
+*.zip
+*.7z
+*.sha256
+
+# Local backups and logs
+_backups/
+*.log
+*.tmp
+*.bak
+
+# Environment
+.env
+.env.local
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
